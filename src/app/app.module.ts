@@ -93,6 +93,7 @@ import { CoreEditorModule } from '@core/editor/editor.module';
 import { AddonBadgesModule } from '@addon/badges/badges.module';
 import { AddonBlogModule } from '@addon/blog/blog.module';
 import { AddonCalendarModule } from '@addon/calendar/calendar.module';
+import { AddonHomeModule    } from '@addon/home/home.module';
 import { AddonCompetencyModule } from '@addon/competency/competency.module';
 import { AddonCourseCompletionModule } from '@addon/coursecompletion/coursecompletion.module';
 import { AddonUserProfileFieldModule } from '@addon/userprofilefield/userprofilefield.module';
@@ -239,6 +240,7 @@ export const WP_PROVIDER: any = null;
         CoreEditorModule,
         AddonBadgesModule,
         AddonBlogModule,
+        AddonHomeModule,
         AddonCalendarModule,
         AddonCompetencyModule,
         AddonCourseCompletionModule,
